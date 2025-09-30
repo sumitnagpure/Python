@@ -1,23 +1,30 @@
-1. Using for loop, write and run a Python program for this algorithm.
-Here is an algorithm to print out n! from 0! to 10! 
+Q. 1. Check if all letters in a string are uppercase
+Q. 2. Write a version of a palindrome recognizer that also accepts phrase palindromes such as : Was it a rat I saw? or Dammit, I'm mad!Note that punctuation, capitalization, and spacing are usually ignored.
 
-2. Find prime numbers between a given range - start(take start no) , end (take end number)
+Q.3.  Write a Python function that takes a list of words and returns the length of the longest one
 
-3. Write a python program to swap a 3 digit number
-input 321
-output 123
+Q.4. Write a Python program to remove duplicates from a list
 
-4. Count Digits, Even/Odd, Sum
-e.g. 23456
-output digits : 5
-sum : 20
-Even digits : 3
-odd digits :2
+Q.5. Write a Python program to compute element-wise sum of given tuples, using “zip()” function
+Original tuples:
+(1, 2, 3, 4)
+(3, 5, 2, 1)
+(2, 2, 3, 1)
+Element-wise sum of the said tuples:
+(6, 9, 8, 6)
 
-5. Write a program to check if given triangle is valid if 3 sides of the triangle are provided.
-Also print the type of triangle
+Q.6 In cryptography, a Caesar cipher is a very simple encryption techniques in which each letter in the plain text is replaced by a letter some fixed number of positions down the alphabet. For example, with a shift of 3, A would be replaced by D, B would become E, and so on. Create a cipher to represent each key with corresponding value as :
 
-6. Find LCM and GCD for given numbers [taek 2 numbers] using loops only
+{'a': 'd', 'b': 'e', 'c': 'f', 'd': 'g', 'e': 'h', 'f': 'i', 'g': 'j', 'h': 'k', 'i': 'l', 'j': 'm', 'k': 'n', 'l': 'o', 'm': 'p', 'n': 'q', 'o': 'r', 'p': 's', 'q': 't', 'r': 'u', 's': 'v', 't': 'w', 'u': 'x', 'v': 'y', 'w': 'z', 'x': 'a', 'y': 'b', 'z': 'c'}
 
+encrypted = 'nbrkrq'
+Expected output : decrypted = python
 
-Armstrong Number. (GeekforGeeks)
+Q.7 For a given dictionary [Add few more entries]
+
+employees = {'Amol' : ['C', 'C++','Java'],.....}
+
+1. print employees and their skill sets
+2. Find all the employees who know Java
+3. Update skill for an employee
+4. Add/remove employee data
